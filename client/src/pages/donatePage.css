@@ -1,0 +1,112 @@
+.checkout-section {
+    width: 80%;
+    background-color: #3a1b1d;
+    color: #f8b0b3;
+    padding: 65px 40px 5px 0;
+    font-weight: 100;
+    letter-spacing: 0.03rem;
+    position: relative;
+    margin: 80px auto;
+    height: 70vh;
+}
+
+.donatePage {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+.donatePage>h2 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.card-det {
+    padding-left: 40px;
+}
+
+.select-card {
+    padding-top: 40px;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+button {
+    background-color: yellow;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.checkout-section>p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-left: 40px;
+}
+
+.select-card>p {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-type {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.form-group {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-left: 40px;
+}
+
+.group2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    border: solid 1px #f8b0b3;
+    border-top: none;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 0.5rem;
+    padding-top: 8px;
+    border-left: none;
+    border-right: none;
+    background-color: #3a1b1d;
+    outline: none;
+}
+
+.g1 {
+    width: 70%;
+}
+
+.g2 {
+    width: 20%;
+    min-width: 35px;
+}
+
+.check-out-text {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    background-color: rgb(255, 178, 13);
+    color: #3a1b1d;
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.check-out-text:hover {
+    background-color: rgba(255, 178, 13, 0.767);
+}

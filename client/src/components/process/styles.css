@@ -1,0 +1,184 @@
+.infoSection {
+    height: fit-content;
+    padding: 40px 0 40px 0;
+}
+
+.infoHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards .card {
+    position: relative;
+    height: 360px;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+.infoCards .one .cardoneImg {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    border-radius: 100%;
+}
+
+article>img {
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.infoCards .two .cardtwoImg {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.infoCards .three .cardthreeImg {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -50px;
+    border-radius: 100%;
+    right: -50px;
+}
+
+.cardbgone {
+    height: 150px;
+    background-color: #ffce63;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: #1c073e;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+}
+
+.cardbgtwo {
+    height: 150px;
+    background-color: #a1cdff;
+    color: #1c073e;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    display: flex;
+    font-weight: 700;
+}
+
+.cardContent {
+    padding: 0 20px;
+}
+
+.cardContent h2 {
+    font-weight: 600;
+    color: #ffd500;
+}
+
+.cardContent p {
+    line-height: 30px;
+    color: #1c073e;
+}
+
+.cardContent .cardBtn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover {
+    background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+}
+
+.section__objectives {
+    background-color: #ffffff;
+    color: black;
+    padding: 70px 0 70px 0;
+}
+
+.section__objectives>h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.objectives {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.objectives__article {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.69);
+    color: black;
+    width: 30%;
+    padding: 20px;
+}
+
+figure>img {
+    width: 150px;
+    height: 150px;
+}
+
+.objectives__article__text {
+    line-height: 25px;
+    letter-spacing: 0.02em;
+}
+
+.objectives__article__text>h3 {
+    margin: 20px 0 20px 0;
+}
+
+@media screen and (max-width: 800px) {
+    .infoCards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 0 40px 0;
+    }
+    .card {
+        margin-bottom: 60px;
+        width: 70%;
+    }
+    .objectives {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .objectives__article {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.69);
+        color: black;
+        width: 90%;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+}

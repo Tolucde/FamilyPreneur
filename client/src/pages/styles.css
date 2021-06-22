@@ -1,0 +1,45 @@
+.team {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__page {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    margin-top: 80px;
+}
+
+.member {
+    margin: 10px;
+}
+
+.member>img {
+    border-radius: 0;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: yellow;
+    color: black;
+    font-size: 22px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.article {
+    margin: 140px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    height: 90vh;
+}
